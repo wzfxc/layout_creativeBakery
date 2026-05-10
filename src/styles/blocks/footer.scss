@@ -19,8 +19,7 @@
     @include on-tablet {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      column-gap: 20px;
-      row-gap: 0;
+      gap: 0 20px;
       align-items: start;
     }
 
@@ -158,6 +157,7 @@
       grid-row: 3;
       margin-top: 100px;
       padding-top: 40px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     @include on-desktop {
@@ -199,6 +199,7 @@
       grid-row: 3;
       margin-top: 100px;
       padding-top: 40px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     @include on-desktop {

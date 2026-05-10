@@ -51,6 +51,7 @@
 
   &__contact-us {
     @include button-text;
+
     display: none;
 
     @include on-desktop {
