@@ -16,21 +16,6 @@
     @include hover(transform, scale(1.2));
   }
 
-  &--number {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateX(100px);
-    text-decoration: none;
-    color: $main-text-color;
-    letter-spacing: 2px;
-    text-align: center;
-    font-size: 12px;
-    line-height: 32px;
-    width: 150px;
-
-    transition: 0.3s;
-  }
-
   &--menu {
     background-image: url(../images/icons/Icon-Burger-menu.svg);
 
